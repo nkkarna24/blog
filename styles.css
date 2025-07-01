@@ -18,8 +18,8 @@
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #fff;
+  --body-color: #FFF8E1;
+  --container-color: #FFF7CC;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -379,12 +379,12 @@ img {
 }
 
 .button--white {
-  background-color: #fff;
+  background-color: #FFF8E1;
   color: var(--first-color);
 }
 
 .button--white:hover {
-  background-color: #fff;
+  background-color: #FFF8E1;
 }
 
 .button--flex {
