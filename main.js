@@ -200,9 +200,7 @@ if (selectedTheme) {
     iconTheme
   );
 } else {
-  // Default to dark theme if no selection
-  document.body.classList.add(darkTheme);
-  themeButton.classList.add(iconTheme);
+  // Default to light theme if no selection (do nothing)
 }
 
 // Activate / deactivate the theme manually with the button
